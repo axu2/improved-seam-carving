@@ -7,6 +7,8 @@ for my Algorithms & Data Structures class.
 
 Below top is a 512-by-342 pixel image; below left and right are the results after removing 200 vertical seams using two different methods. The first method is the one taught in many CS curriculums, including mine. The second method should have been taught as well, since it's a better algorithm that preserves the water gradient and bench supports.
 
+In this notebook, I will be implementing both methods using numpy and scikit-image.
+
 <img src="doub_bench3_comp.jpg" alt="seam" width=500>
 
 For more details, read the original [seam carving paper](http://www.faculty.idc.ac.il/arik/SCWeb/imret/index.html) 
@@ -24,13 +26,11 @@ The two resulting energy maps of the bench image using the two methods look like
 
 As you can see, seams will not want to pass through the bench using backwards energy, which causes severe artifacts. The forward energy algorithm doesn't, and the results are similar to what happens in Adobe Photoshop.
 
-So I decided to implement both forms of energy of energy using numpy and scikit-image, testing on a nondescript Windows laptop using Anaconda.
-
 I believe my implementation of forward energy is more optimal than any other implementation I've seen on Google or GitHub, though I note more potential optimizations in the notebook.
 
 I hope to add it to scikit-image's seam_carve function.
 
-For implementation details, please view the notebook here for the best formatting and not directly on GitHub:
+For implementation details (tested on a nondescript Windows laptop), please view the notebook here for the best formatting and not directly on GitHub:
 
 https://nbviewer.jupyter.org/github/axu2/improved-seam-carving/blob/master/Improved%20Seam%20Carving.ipynb
 
