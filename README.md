@@ -30,7 +30,7 @@ I believe my implementation of forward energy is more optimal than any other imp
 
 I hope to add it to scikit-image's seam_carve function.
 
-For implementation details and the full description, please view the notebook here for the best formatting and not directly on GitHub:
+For implementation details, please view the notebook here for the best formatting and not directly on GitHub:
 
 https://nbviewer.jupyter.org/github/axu2/improved-seam-carving/blob/master/Improved%20Seam%20Carving.ipynb
 
