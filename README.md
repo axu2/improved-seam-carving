@@ -8,7 +8,8 @@ The difference between the two methods can be shown in the below photo from the 
 <img src="doub_bench3_comp.jpg" alt="seam" width=500>
 
 where the top is the original photo, the left is the carving I implemented in class, and the right is the improved carving.
-The improved method preserves the water gradient and bench supports much betterby using a technique called forward energy described in the paper.
+The improved method preserves the water gradient and bench supports much better
+by using a technique called forward energy described in the paper.
 
 I decided to implement these functions using numpy and scikit-image.
 
