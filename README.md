@@ -26,6 +26,10 @@ The two resulting energy maps of the bench image using the two methods look like
 
 As you can see, seams will not want to pass through the bench using backwards energy, which causes severe artifacts. The forward energy algorithm doesn't, and the results are similar to what happens in Adobe Photoshop.
 
+Here is an image of the resulting seams and accumulated energy matrices from the paper:
+
+<img src="seams.PNG" alt="seam" width=700>
+
 I believe my implementation of forward energy is more optimal than any other implementation I've seen on Google or GitHub, though I note more potential optimizations in the notebook.
 
 I hope to add it to scikit-image's seam_carve function.
