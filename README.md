@@ -1,4 +1,4 @@
-# Improved Seam Carving
+# Improved Seam Carving Using Forward Energy
 
 After implementing the original seam carving algorithm in a class,
 I read the improved seam carving paper by the same author. 
@@ -8,7 +8,7 @@ The difference between the two methods can be shown in the below photo from the 
 <img src="doub_bench3_comp.jpg" alt="seam" width=500>
 
 where the top is the original photo, the left is the carving I implemented in class, and the right is the improved carving.
-The improved method preserves the water gradient and bench supports much better.
+The improved method preserves the water gradient and bench supports much betterby using a technique called forward energy described in the paper.
 
 I decided to implement these functions using numpy and scikit-image.
 
