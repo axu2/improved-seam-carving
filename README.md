@@ -1,7 +1,3 @@
-For implementation details and the full description, please view the notebook here for the best formatting and not directly on GitHub:
-
-https://nbviewer.jupyter.org/github/axu2/improved-seam-carving/blob/master/Improved%20Seam%20Carving.ipynb
-
 # Improved Seam Carving Using Forward Energy
 
 >Seam-carving is a content-aware image resizing technique where the image is reduced in size by one pixel of height (or width) at a time. A vertical seam in an image is a path of pixels connected from the top to the bottom with one pixel in each row. Unlike standard content-agnostic resizing techniques (such as cropping and scaling), seam carving preserves the most interesting features (aspect ratio, set of objects present, etc.) of the image.
@@ -33,6 +29,10 @@ So I decided to implement both forms of energy of energy using numpy and scikit-
 I believe my implementation of forward energy is more optimal than any other implementation I've seen on Google or GitHub, though I note more potential optimizations in the notebook.
 
 I hope to add it to scikit-image's seam_carve function.
+
+For implementation details and the full description, please view the notebook here for the best formatting and not directly on GitHub:
+
+https://nbviewer.jupyter.org/github/axu2/improved-seam-carving/blob/master/Improved%20Seam%20Carving.ipynb
 
 ## Examples
 
