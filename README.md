@@ -8,6 +8,7 @@ The difference between the two methods can be shown in the below photo from the 
 <img src="doub_bench3_comp.jpg" alt="seam" width=500>
 
 where the top is the original photo, the left is the carving I implemented in class, and the right is the improved carving.
+The improved method preserves the water gradient and bench supports much better.
 
 I decided to implement these functions using numpy and scikit-image.
 
@@ -16,3 +17,7 @@ I believe my implementation of forward energy is more optimal than any other imp
 Please view the notebook here for the best formatting and not directly on GitHub:
 
 https://nbviewer.jupyter.org/github/axu2/improved-seam-carving/blob/master/Improved%20Seam%20Carving.ipynb
+
+## Examples
+
+![examples](examples.png)
