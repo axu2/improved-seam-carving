@@ -9,7 +9,7 @@ https://nbviewer.jupyter.org/github/axu2/improved-seam-carving/blob/master/Impro
 This was the description of seam carving in an [assignment](https://www.cs.princeton.edu/courses/archive/spring16/cos226/assignments/seamCarving.html)
 for my Algorithms & Data Structures class.
 
-Below top is a 512-by-342 pixel image; below left and right are the results after removing 200 vertical seams using two different methods. The first method is the one taught in many CS curriculums, including CS 61B at UC Berkeley. The second method should have been taught as well, since it's a better algorithm that preserves the water gradient and bench supports.
+Below top is a 512-by-342 pixel image; below left and right are the results after removing 200 vertical seams using two different methods. The first method is the one taught in many CS curriculums, including CS 61B at UC Berkeley and mine. The second method should have been taught as well, since it's a better algorithm that preserves the water gradient and bench supports.
 
 In this notebook, I will be implementing both methods using numpy and scikit-image.
 
