@@ -12,7 +12,7 @@ In this notebook, I will be implementing both methods using numpy and scikit-ima
 <img src="doub_bench3_comp.jpg" alt="seam" width=500>
 
 For more details, read the original [seam carving paper](http://www.faculty.idc.ac.il/arik/SCWeb/imret/index.html) 
-and the [Improved Seam Carving](http://www.faculty.idc.ac.il/arik/SCWeb/vidret/index.html) paper.
+and the [Improved Seam Carving](http://www.faculty.idc.ac.il/arik/SCWeb/vidret/index.html) paper, where the above photo is from.
 
 Both papers introduce different ways to "calculate the energy of a pixel, which is a measure of its importance—the higher the energy, the less likely that the pixel will be included as part of a seam."
 
