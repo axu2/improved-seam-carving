@@ -1,4 +1,4 @@
-For implementation details (tested on a nondescript Windows laptop), please view the notebook here for the best formatting and not directly on GitHub:
+After reading the readme, you can view the notebook here for the implementation:
 
 https://nbviewer.jupyter.org/github/axu2/improved-seam-carving/blob/master/Improved%20Seam%20Carving.ipynb
 
