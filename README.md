@@ -27,9 +27,7 @@ In this notebook, I will be implementing both methods using numpy and scikit-ima
 
 I believe my implementation of the second method is more optimal than any other implementation I've seen on Google or GitHub, though I note more potential optimizations in the notebook.
 
-I hope to add it to scikit-image.
-
-https://github.com/scikit-image/scikit-image/issues/3082
+[I hope to add it to scikit-image.](https://github.com/scikit-image/scikit-image/issues/3082)
 
 ## Implementation Details
 
@@ -38,9 +36,9 @@ and the [Improved Seam Carving](http://www.faculty.idc.ac.il/arik/SCWeb/vidret/i
 
 Both papers introduce different ways to "calculate the energy of a pixel, which is a measure of its importance—the higher the energy, the less likely that the pixel will be included as part of a seam."
 
-The first paper calculated the energy of a pixel using a an edge detection algorithm.
+The first paper determined the energy of a pixel using some edge detection algorithm.
 
-The second paper calculated the energy of a pixel by seeing if removing it would introduce a new edge in the image.
+The second paper determined the energy of a pixel by calculating the gradient of the new edges that are introduced in the image after removing a seam containing that pixel.
 
 The two resulting energy maps of the bench image using the two methods look like this, where higher energy pixels are brighter:
 
