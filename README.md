@@ -9,7 +9,7 @@ https://nbviewer.jupyter.org/github/axu2/improved-seam-carving/blob/master/Impro
 >![ocean](ocean.PNG)
 
 This was the description of seam carving in an [assignment](https://www.cs.princeton.edu/courses/archive/spring16/cos226/assignments/seamCarving.html)
-for my Algorithms & Data Structures class.
+for my Data Structures class.
 
 This technique is taught in many CS curriculums, including CS 61B at UC Berkeley and mine. 
 
