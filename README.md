@@ -21,6 +21,8 @@ The left is the original seam carving algorithm and the right is the improved al
 
 <img src="doub_bench3_comp.jpg" alt="seam" width=500>
 
+As you can see, the improved method preserves the gradient of the water and the bench supports much better, and the result is similar to what happens in Adobe Photoshop.
+
 In this notebook, I will be implementing both methods using numpy and scikit-image.
 
 I believe my implementation of the second method is more optimal than any other implementation I've seen on Google or GitHub, though I note more potential optimizations in the notebook.
@@ -42,7 +44,7 @@ The two resulting energy maps of the bench image using the two methods look like
 
 <img src="eimg.jpg" alt="eimg" width=700>
 
-As you can see, seams will not want to pass through the bench using backwards energy, which causes severe artifacts. The forward energy algorithm doesn't, and the results are similar to what happens in Adobe Photoshop.
+As you can see, seams will not want to pass through the bench using backwards energy, which causes severe artifacts. 
 
 Here is an image of the resulting seams and accumulated energy matrices from the paper:
 
