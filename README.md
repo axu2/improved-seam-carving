@@ -21,7 +21,9 @@ The left is the original seam carving algorithm and the right is the improved al
 
 <img src="doub_bench3_comp.jpg" alt="seam" width=500>
 
-As you can see, the improved method preserves the gradient of the water and the bench supports much better, and the result is similar to what happens in Adobe Photoshop.
+It took 3 seconds using the original seam carving method and 14 seconds using the improved method, tested on a nondescript Windows laptop using Anaconda.
+
+The improved method preserves the gradient of the water and the bench supports much better, and the result is similar to what happens in Adobe Photoshop.
 
 In this notebook, I will be implementing both methods using numpy and scikit-image.
 
