@@ -2,6 +2,8 @@ After reading the readme, you can view the notebook here for the implementation:
 
 https://nbviewer.jupyter.org/github/axu2/improved-seam-carving/blob/master/Improved%20Seam%20Carving.ipynb
 
+**TLDR:** In class, I learned the most basic version of seam carving. Then I read about the improved seam carving algorithm by the same author. I implemented both methods really fast using numpy. I can probably make them even faster and add them to scikit-image.
+
 # Improved Seam Carving Using Forward Energy
 
 >Seam-carving is a content-aware image resizing technique where the image is reduced in size by one pixel of height (or width) at a time. A vertical seam in an image is a path of pixels connected from the top to the bottom with one pixel in each row. Unlike standard content-agnostic resizing techniques (such as cropping and scaling), seam carving preserves the most interesting features (aspect ratio, set of objects present, etc.) of the image.
