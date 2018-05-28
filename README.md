@@ -26,7 +26,7 @@ The improved method preserves the gradient of the water and the bench supports m
 
 In this notebook, I will be implementing both methods using numpy and scikit-image.
 
-I believe my implementation of the second method is more optimal than any other implementation I've seen on Google or GitHub, though I note more potential optimizations in the notebook.
+I believe my implementation of the second method is more optimal than any other implementation I've seen on Google or GitHub, though I note more potential optimizations in the notebook that could potentially make forward energy just as fast or even faster than backwards energy as its implemented right now in scikit-image.
 
 [I hope to add it to scikit-image.](https://github.com/scikit-image/scikit-image/issues/3082)
 
