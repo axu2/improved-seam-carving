@@ -20,7 +20,7 @@ The left is the original seam carving algorithm and the right is the improved al
 
 <img src="doub_bench3_comp.jpg" alt="seam" width=500>
 
-It took 3 seconds using the original seam carving method and 14 seconds using the improved method, tested on a nondescript Windows laptop using [Anaconda Python 3.6](https://www.anaconda.com/download/).
+It took 3 seconds using the original seam carving method and 8 seconds using the improved method, tested on a cheap Windows laptop using [Anaconda Python 3.6](https://www.anaconda.com/download/).
 
 The improved method preserves the gradient of the water and the bench supports much better, and the result is similar to what happens in Adobe Photoshop.
 
