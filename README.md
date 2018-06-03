@@ -45,9 +45,12 @@ Both papers introduce different ways to "calculate the energy of a pixel, which 
 The first paper determined the energy of a pixel using some edge detection algorithm.
 
 The second paper determined the energy of a pixel by first getting the accumulated energy
-of the three possible seams the pixel could be a part of. Then it calculated the gradient 
-of the new edges that are created when removing each of three seams to calculate three 
-new potential accumulated energies for that pixel. The minimum of that is the accumulated
+of the three possible seams the pixel could be the bottom of. 
+It adds these three accumulated energies to the the gradient 
+of the new edges that are created when removing each of three seams respectively
+to calculate three 
+new potential accumulated energies for that pixel. 
+The minimum of that is the accumulated
 energy of that pixel. The gradient of the new edges that are created is the energy.
 
 The two resulting energy maps of the bench image using the two methods look like this, where higher energy pixels are brighter:
