@@ -45,7 +45,7 @@ Both papers introduce different ways to "calculate the energy of a pixel, which 
 The first paper determined the energy of a pixel using some edge detection algorithm.
 
 The second paper determined the energy of a pixel by first getting the accumulated energy
-of the three possible seams the pixel could be the bottom of. 
+of the three possible seams the pixel could be a part of. 
 It adds these three accumulated energies to the the gradient 
 of the new edges that are created when removing each of three seams respectively
 to calculate three 
