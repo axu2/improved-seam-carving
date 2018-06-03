@@ -51,7 +51,7 @@ of the new edges that are created when removing each of three seams respectively
 to calculate three 
 new potential accumulated energies for that pixel. 
 The minimum of that is the accumulated
-energy of that pixel. The gradient of the new edges that are created is the energy.
+energy of that pixel. The respective gradient of the new edges that are created is the energy.
 
 The two resulting energy maps of the bench image using the two methods look like this, where higher energy pixels are brighter:
 
