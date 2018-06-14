@@ -44,14 +44,17 @@ Both papers introduce different ways to "calculate the energy of a pixel, which 
 
 The first paper determined the energy of a pixel using some edge detection algorithm.
 
-The second paper determined the energy of a pixel by first getting the accumulated energy
-of the three possible seams the pixel could be a part of. 
-It adds these three accumulated energies to the the gradient 
-of the new edges that are created when removing each of three seams respectively
-to calculate three 
-new potential accumulated energies for that pixel. 
-The minimum of that is the accumulated
-energy of that pixel. The respective gradient of the new edges that are created is the energy.
+The second paper determines the energy by looking forward after removing a seam:
+
+><img src='forward.png' width=600>
+
+>Calculating the three possible vertical seam step costs
+for pixel p<sub>i,j</sub> using forward energy. After removing the seam, new
+neighbors (in gray) and new pixel edges (in red) are created. In
+each case the cost is defined by the forward difference in the newly
+created pixel edges. Note that the new edges created in row i − 1
+were accounted for in the cost of the previous row pixel.
+
 
 The two resulting energy maps of the bench image using the two methods look like this, where higher energy pixels are brighter:
 
