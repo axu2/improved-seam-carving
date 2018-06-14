@@ -44,8 +44,8 @@ Both papers introduce different ways to "calculate the energy of a pixel, which 
 
 The first paper determined the energy of a pixel by looking at its 4 surrounding neighbors. (e.g. dual gradient.)
 
-The second paper
->looks forward at the resulting
+The second paper determined the energy of a pixel by looking
+>forward at the resulting
 image instead of backward at the image before removing the
 seam. At each step, we search for the seam whose removal inserts
 the minimal amount of energy into the image. These are seams that
