@@ -42,9 +42,17 @@ and the [Improved Seam Carving](http://www.faculty.idc.ac.il/arik/SCWeb/vidret/i
 
 Both papers introduce different ways to "calculate the energy of a pixel, which is a measure of its importance—the higher the energy, the less likely that the pixel will be included as part of a seam."
 
-The first paper determined the energy of a pixel using some edge detection algorithm.
+The first paper determined the energy of a pixel by looking at its 4 surrounding neighbors. (e.g. dual gradient.)
 
-The second paper determines the energy by looking forward after removing a seam:
+The second paper
+>looks forward at the resulting
+image instead of backward at the image before removing the
+seam. At each step, we search for the seam whose removal inserts
+the minimal amount of energy into the image. These are seams that
+are not necessarily minimal in their energy, but will leave less artifacts
+in the resulting image, after removal. This coincides with
+the assumption that natural images are piece-wise smooth intensity
+surfaces, which is a popular assumption in the literature.
 
 ><img src='forward.png' width=600>
 
@@ -54,7 +62,6 @@ neighbors (in gray) and new pixel edges (in red) are created. In
 each case the cost is defined by the forward difference in the newly
 created pixel edges. Note that the new edges created in row i − 1
 were accounted for in the cost of the previous row pixel.
-
 
 The two resulting energy maps of the bench image using the two methods look like this, where higher energy pixels are brighter:
 
