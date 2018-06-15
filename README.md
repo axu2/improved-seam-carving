@@ -1,4 +1,4 @@
-**TLDR:** In class, I learned the most basic version of seam carving. Then I read about the improved seam carving algorithm by the same author. I implemented both methods really fast using numpy. I can probably make them even faster and add them to scikit-image.
+**TLDR:** In class, I learned the most basic version of seam carving. Then I read about the improved seam carving algorithm by the same author. I implemented both methods using numpy and hope to [add them to scikit-image.](https://github.com/scikit-image/scikit-image/issues/3082)
 
 [Was No. 1 on Show | Hacker News for a day.](https://news.ycombinator.com/item?id=17165889)
 
@@ -32,8 +32,6 @@ The improved method preserves the gradient of the water and the bench supports m
 In this notebook, I will be implementing both methods using numpy and scikit-image.
 
 I believe my implementation of the second method is more optimal than any other Python implementation I've seen on Google or GitHub, though I note more potential optimizations in the notebook that could potentially make forward energy just as fast or even faster than backwards energy as its implemented right now in scikit-image.
-
-[I hope to add it to scikit-image.](https://github.com/scikit-image/scikit-image/issues/3082)
 
 ## Implementation Details
 
