@@ -15,7 +15,10 @@ https://nbviewer.jupyter.org/github/axu2/improved-seam-carving/blob/master/Impro
 
 Above left is the original 714-by-186 pixel image; above middle are the vertical seams; above right is the result after removing 554 vertical seams.
 
-This technique is taught in many CS curriculums, including CS 61B at UC Berkeley and [mine](https://www.cs.princeton.edu/courses/archive/spring16/cos226/assignments/seamCarving.html). 
+This technique is taught in many Data Structures courses such as:
+* CS 61B at UC Berkeley
+* CIS 121 at UPenn
+* [COS 226 at Princeton](https://www.cs.princeton.edu/courses/archive/spring16/cos226/assignments/seamCarving.html). 
 
 But these classes neglect to mention the improved seam carving algorithm, published the year after the original.
 
