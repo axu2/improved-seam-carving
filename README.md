@@ -1,5 +1,7 @@
 **TLDR:** In class, I learned the most basic version of seam carving. Then I read about the improved seam carving algorithm by the same author. I implemented both methods using numpy and hope to [add them to scikit-image.](https://github.com/scikit-image/scikit-image/issues/3082)
 
+Update: PR was rejected due to patent issues: https://github.com/scikit-image/scikit-image/pull/3643
+
 [Was No. 1 on Show | Hacker News for a day.](https://news.ycombinator.com/item?id=17165889)
 
 **Implementation:** 
