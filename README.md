@@ -2,6 +2,8 @@
 
 Update: PR was rejected due to patent issues: https://github.com/scikit-image/scikit-image/pull/3643
 
+But you can pip install my fork here: https://github.com/axu2/scikit-image/tree/forward-energy2
+
 [Was No. 1 on Show | Hacker News for a day.](https://news.ycombinator.com/item?id=17165889)
 
 **Implementation:** 
